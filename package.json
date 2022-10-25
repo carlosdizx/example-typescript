@@ -1,7 +1,7 @@
 {
   "name": "example-typescript",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,5 +11,33 @@
   "devDependencies": {
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
-  }
+  },
+  "description": "Project template with Nodejs and Typescript",
+  "main": "src\\main.ts",
+  "dependencies": {
+    "esbuild": "^0.15.12",
+    "esbuild-windows-64": "^0.15.12",
+    "function-bind": "^1.1.1",
+    "has": "^1.0.3",
+    "is-core-module": "^2.11.0",
+    "nanoid": "^3.3.4",
+    "path-parse": "^1.0.7",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.18",
+    "prettier": "^2.7.1",
+    "resolve": "^1.22.1",
+    "rollup": "^2.78.1",
+    "source-map-js": "^1.0.2",
+    "supports-preserve-symlinks-flag": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosdizx/example-typescript.git"
+  },
+  "author": "Carlos Ernesto Díaz Basante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosdizx/example-typescript/issues"
+  },
+  "homepage": "https://github.com/carlosdizx/example-typescript#readme"
 }
